@@ -7,12 +7,11 @@
 - Mybatis (3.3.0);
 
 #### 开发环境
-- System:Windows 10 10.0 , CentOs 7
+- System:Windows 10 x64 , CentOs 7 x64
 - Datebase: Mysql 5.7.17
 - NoSQL: Redis 3.2.8
 - IntelliJ IDEA 2017.1
-- JRE: 1.8.0_112-release-736-b13 amd64
-- JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+- java version "1.8.0_91"
 
 
 #### 项目使用的工具、组件
