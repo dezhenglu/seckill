@@ -1,7 +1,6 @@
+[TOC]
 # README.md
 # Seckill秒杀即系统(慕课网教程练习)
-
-[TOC]
 
 #### 项目使用的框架
 
