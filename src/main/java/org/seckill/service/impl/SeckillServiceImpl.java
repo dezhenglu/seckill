@@ -63,15 +63,11 @@ public class SeckillServiceImpl implements SeckillService{
         if(seckill == null){
             seckill = getById(seckillId);
             if(seckill == null){
-                if(seckill == null){
-                    return new Exposer(false,seckillId);
-                }
+                return new Exposer(false,seckillId);
             }else{
                 redisDao.putSeckill(seckill);
             }
         }
-
-
 
         Date startTime = seckill.getStartTime();
         Date endTime = seckill.getEndTime();
